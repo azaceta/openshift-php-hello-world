@@ -1,6 +1,6 @@
 #!/bin/bash
 
-USER 0
+USER root
 yum check-update
 yum update php
 USER 1001
