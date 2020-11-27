@@ -1,4 +1,6 @@
 #!/bin/bash
 
-sudo yum check-update
-sudo yum update php
+USER 0
+yum check-update
+yum update php
+USER 1001
