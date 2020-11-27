@@ -1,4 +1,4 @@
 #!/bin/bash
 
-yum check-update
-yum update php
+sudo yum check-update
+sudo yum update php
