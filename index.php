@@ -6,8 +6,9 @@
 
 <body>
 
-<?php echo "Hello World!"; ?>
-<?php echo "A change is coming!"; ?>
+<?php echo "Hello World!"; ?><br />
+<?php echo 'Current PHP version: ' . phpversion(); ?>
+<br />
 <?php if($_ENV["HOSTNAME"]) {?><h3>My hostname is <?php echo $_ENV["HOSTNAME"]; ?><br /><br />
 
 <?php $links = [];
